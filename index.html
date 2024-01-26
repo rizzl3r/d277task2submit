@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Florida</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Epilogue">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yesteryear">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="FloridaSilhouette">Florida</div>
+        <header>
+            <h1>Welcome to Florida</h1>
+        </header>
+        <nav>
+            <div>
+                <div><a href="./index.html">Home</a><a href="./Tallahassee.html">Tallahassee</a><a
+                        href="./Tampa.html">Tampa</a><a href="./Orlando.html">Orlando</a></div>
+            </div>
+        </nav>
+
+        <div class="content">
+
+            <section>
+                <img src="./images/photo-1614639935349-3507fee706d1.jfif"
+                    alt="A sticker in the shape of Florida, with the label Florida">
+
+                <p>Welcome to our website about Florida, your guide to the Sunshine State. Florida has been a part of
+                    the United States since March of 1845, and is the only state to have coasts on both the Atlantic
+                    Ocean and the Gulf of Mexico. Immerse yourself in the
+                    culture of
+                    Tallahassee, the state capital, where both history and progress coexist. Explore the vibrant
+                    art
+                    scene, take in the rich Southern charm, and uncover the political and cultural significance that
+                    defines this
+                    city.</p>
+
+                <p>Head to one of Central Florida's main cities, Tampa, where the Gulf Coast's energy meets a diverse
+                    cultural
+                    landscape. Experience
+                    the fusion of Cuban, Spanish, and Italian influences, and indulge in the thriving culinary scene and
+                    some great breweries, also.
+                    Tampa's vibrant
+                    waterfront, cultural institutions, and lively events make it a must-visit destination for every
+                    traveler.</p>
+                <aside>
+                    <p>Did you know?</p>
+                    <p style="text-align: center;">Florida is home to the fabled "Florida Man"!</p>
+                </aside>
+                <p>In the heart of Central Florida, Orlando awaits to host you with it's theme parks.
+                    Dive into the
+                    world of Walt Disney World and Universal Studios, experiencing unparalleled entertainment and
+                    creating
+                    lasting memories.
+                    For a cheaper experience, enjoy Disney Springs where families can walk and shop without paying any
+                    entrance fees.</p>
+                <p>Sources:
+                <ul>
+                    <li>
+                        Done By Alex (2021). [Images of Florida]. Unsplash.
+                        https://unsplash.com/photos/person-holding-white-and-black-iphone-case-_7gIfk0MU0o
+                    </li>
+                </ul>
+                </p>
+            </section>
+
+        </div>
+        <form id="myform" action="./index.html" method="post">
+            <p>Have a question? Just ask!</p>
+            <div>
+                <label for="firstname">First Name: </label>
+                <input type="text" name="firstname" id="firstname" required> *
+            </div>
+            <div><label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" required>*
+            </div>
+            <div><label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>*
+            </div>
+            <div><label for="emailconfirm">Confirm Email:</label>
+                <input type="email" name="emailconfirm" id="emailconfirm" required>*
+            </div>
+            <div class="errorText hidden" id="emailValidationMsg">Emails do not match!</div>
+            <div><label for="question">Question?</label>
+                <textarea name="question" id="question" cols="20" rows="5" placeholder="Ask here!" required></textarea>*
+
+            </div>
+            <div id="formsubmit"><input type="submit" value="submit"></div>
+        </form>
+        <footer>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Florida" target="_blank">Florida's Wikipedia page</a></li>
+                <li><a href="https://www.myflorida.com/" target="_blank">Official Florida Website</a></li>
+                <li><a href="https://www.visitflorida.com/" target="_blank">Visit Florida</a></li>
+                <li><a href="https://unsplash.com/photos/silhouette-of-palm-trees-near-body-of-water-during-sunset-FQjUaIMQF3Q"
+                        target="_blank">Background
+                        Image</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Climate_of_Florida" target="_blank"></a>Climate information
+                </li>
+            </ul>
+            <p>All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
